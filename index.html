@@ -18,12 +18,9 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
-        <link rel="stylesheet" href="styles/index.css" />
-
+    <link rel="stylesheet" href="styles/index.css" />
   </head>
   <body>
-    
-
     <header>
       <nav class="navigation">
         <ul>
@@ -61,16 +58,29 @@
     </header>
 
     <!-- LOGIN Y REGISTRO -->
-     <section id="contacto">
-    <form onsubmit="handleSubmit(event)">
-      <input type="text" name="nombre" placeholder="Nombre completo" required />
-      <input type="email" name="correo" placeholder="Correo electrónico" required />
-      <input type="text" name="barrio" placeholder="Barrio o comuna" />
-      <button class="btn_red" type="submit">Registrarse</button>
-      <button type="submit">Iniciar Sesión</button>
-    </form>
-  </section>
-    
+    <section id="contacto">
+      <form onsubmit="handleSubmitRegister(event)">
+        <input
+          type="text"
+          name="nombre"
+          placeholder="Nombre completo"
+          required
+        />
+        <input
+          type="email"
+          name="correo"
+          placeholder="Correo electrónico"
+          required
+        />
+        <input type="text" name="barrio" placeholder="Barrio o comuna" />
+        <button class="btn_red" type="submit">Registrarse</button>
+      </form>
+      <form onsubmit="handleSubmitLogin(event)">
+        <button type="button">
+          <a href="perfil.html"> Iniciar Sesión </a>
+        </button>
+      </form>
+    </section>
 
     <img class="megafono-footer" src="img/megafono.png" alt="megafono" />
 
