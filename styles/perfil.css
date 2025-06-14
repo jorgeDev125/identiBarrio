@@ -21,7 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 }
 
 .header-content {
@@ -107,7 +106,6 @@ header p {
   color: #fff;
 }
 
-
 .navigation ul li a .text {
   position: absolute;
   color: #fff;
@@ -119,8 +117,6 @@ header p {
   opacity: 0;
   transform: translateY(-25px);
 }
-
-
 
 section {
   padding: 12rem 1rem 3rem 1rem;
@@ -159,15 +155,15 @@ h2 {
 
 .cards {
   display: flex;
-    flex-direction: column;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 1rem;
 }
 
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   flex: 1 1 120px;
   min-width: 260px;
   background: white;
@@ -245,7 +241,6 @@ h2 {
   font-weight: 900;
   cursor: pointer;
   text-decoration: none;
-
 }
 
 .card_orange {
@@ -282,35 +277,6 @@ h2 {
   color: #f2383b;
   font-weight: 900;
 }
-
-/* form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-input,
-textarea,
-button {
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-button {
-  background: #3f3cff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-button:hover {
-  background: #2f2fdd;
-} */
 
 .megafono-footer {
   position: absolute;
@@ -356,14 +322,12 @@ button:hover {
     top: 80px;
     width: 120px;
   }
-  
-  .megafono-footer {
- 
-  right: 10px;
-  bottom: -30px;
-  width: 120px;
 
-}
+  .megafono-footer {
+    right: 10px;
+    bottom: -30px;
+    width: 120px;
+  }
 
   .header-content {
     left: 40px;
@@ -372,6 +336,6 @@ button:hover {
 
   .card_red h3 {
     width: 300px;
-  text-overflow: ellipsis;
-}
+    text-overflow: ellipsis;
+  }
 }

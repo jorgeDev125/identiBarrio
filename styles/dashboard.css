@@ -47,99 +47,76 @@ header p {
   font-size: 1.1rem;
 }
 
-
 .navigation {
-    position: sticky;
-    top: 0;
-    display: flex;
-    margin: 0 20px 15px 0;
-    width: 240px;
-    height: 60px;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
-    background: #00000040;
-    backdrop-filter: blur(10px);
-    border-radius:  0 0 20px 20px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
-    border-top: none;
-    transition: 0.5s;
+  position: sticky;
+  top: 0;
+  display: flex;
+  margin: 0 20px 15px 0;
+  width: 240px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background: #00000040;
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 20px 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.21);
+  border-top: none;
+  transition: 0.5s;
 }
 
 .navigation:hover {
-    background: #00000060;
-
+  background: #00000060;
 }
 
 .navigation ul {
-    position: absolute;
-    padding: 0;
-    display: flex;
-    justify-content: start;
+  position: absolute;
+  padding: 0;
+  display: flex;
+  justify-content: start;
 }
 
-.navigation ul li{
-    position: relative;
-    list-style: none;
-    width: 75px;
-    height: 60px;
-    z-index: 1;
+.navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 75px;
+  height: 60px;
+  z-index: 1;
 }
 
-.navigation ul li a{
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 2px;
-    
-    width: 100%;
-    text-align: center;
-    font-weight: 500;
-}
+.navigation ul li a {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
 
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+}
 
 .navigation ul li a .icon {
-    position: relative;
-    display: block;
-    line-height: 68px;
-    font-size: 35px;
-    text-align: center;
-    transition: 0.5s;
-    color: #fff;
+  position: relative;
+  display: block;
+  line-height: 68px;
+  font-size: 35px;
+  text-align: center;
+  transition: 0.5s;
+  color: #fff;
 }
 
-/* .navigation ul li.active a .icon {
-    transform: translateY(34px);
-}
- */
-.navigation ul li a .text{
-    position: absolute;
-    color:  #fff;
-    font-weight: 400px;
-    font-size: 13px;
-    letter-spacing: 0.05;
-    text-decoration: none;
-    transition: 0.5s;
-    opacity: 0;
-    transform: translateY(-25px);
-}
-
-/* .navigation ul li.active a .text{
-    opacity: 1;
-    transform: translateY(-18px);
-
-} */
-/* .btn-primary {
-  display: inline-block;
-  margin-top: 1.5rem;
-  background: white;
-  color: #3f3cff;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-weight: bold;
+.navigation ul li a .text {
+  position: absolute;
+  color: #fff;
+  font-weight: 400px;
+  font-size: 13px;
+  letter-spacing: 0.05;
   text-decoration: none;
-} */
+  transition: 0.5s;
+  opacity: 0;
+  transform: translateY(-25px);
+}
 
 section {
   padding: 12rem 1rem 3rem 1rem;
@@ -288,35 +265,6 @@ h2 {
   font-weight: 900;
 }
 
-/* form {
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  margin-top: 2rem;
-}
-
-input,
-textarea,
-button {
-  font-family: inherit;
-  font-size: 1rem;
-  padding: 0.75rem;
-  border: 1px solid #ccc;
-  border-radius: 8px;
-}
-
-button {
-  background: #3f3cff;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-weight: bold;
-}
-
-button:hover {
-  background: #2f2fdd;
-} */
-
 .megafono-footer {
   position: absolute;
   right: 10px;
@@ -333,7 +281,9 @@ form {
   margin-top: 2rem;
 }
 
-input, textarea, button {
+input,
+textarea,
+button {
   font-family: inherit;
   font-size: 1rem;
   padding: 0.75rem;
@@ -353,7 +303,6 @@ button:hover {
   background: #2f2fdd;
 }
 
-
 @media screen and (max-width: 440px) {
   .megafono-header {
     left: -50px;
@@ -362,9 +311,7 @@ button:hover {
   }
 
   .header-content {
-
-  left: 50px;
-  top: 100px;
-  
-}
+    left: 50px;
+    top: 100px;
+  }
 }

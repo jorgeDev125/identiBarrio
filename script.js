@@ -5,4 +5,3 @@ function handleSubmitRegister(event) {
 
   event.target.reset(); // Limpia el formulario
 }
-

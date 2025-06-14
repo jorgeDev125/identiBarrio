@@ -106,10 +106,6 @@ header p {
   color: #fff;
 }
 
-/* .navigation ul li.active a .icon {
-    transform: translateY(34px);
-}
- */
 .navigation ul li a .text {
   position: absolute;
   color: #fff;
@@ -121,22 +117,6 @@ header p {
   opacity: 0;
   transform: translateY(-25px);
 }
-
-/* .navigation ul li.active a .text{
-    opacity: 1;
-    transform: translateY(-18px);
-
-} */
-/* .btn-primary {
-  display: inline-block;
-  margin-top: 1.5rem;
-  background: white;
-  color: #3f3cff;
-  padding: 0.75rem 1.5rem;
-  border-radius: 8px;
-  font-weight: bold;
-  text-decoration: none;
-} */
 
 section {
   padding: 12rem 1rem 3rem 1rem;
@@ -234,7 +214,6 @@ a {
   color: white;
   text-decoration: none;
 }
-
 
 @media screen and (max-width: 440px) {
   .megafono-header {
