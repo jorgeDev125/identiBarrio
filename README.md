@@ -11,7 +11,7 @@ Este proyecto es un dashboard web para la gestión de identidad digital comunita
 
 ## Tecnologías utilizadas para WEB3
 
-- **POAP**
+- **POAP**   https://poap.gallery/drops/190961
 - **Snapshot**
 
 ## Estructura del proyecto
